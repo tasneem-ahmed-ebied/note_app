@@ -1,0 +1,6 @@
+
+class ConstValues {
+  ConstValues._();
+
+
+}
