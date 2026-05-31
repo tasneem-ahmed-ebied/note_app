@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:note/core/color_manager.dart';
 import 'package:note/core/font_manager.dart';
 import 'package:note/core/heigth_manager.dart';
+import 'package:note/core/navigation/app_navigation.dart';
+import 'package:note/core/route_manager.dart';
 
 import '../../../../core/assets_value_manager.dart';
 import '../../../../core/utils.dart';
@@ -40,7 +42,9 @@ class SplachPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: HeightManager.h30),
-            MainCircleButton(icon: Icons.navigate_next),
+            MainCircleButton(icon: Icons.navigate_next, onTap: () {
+              AppNavigation.pushAndRemoveUntil(context, RouteName.homePage);
+            },),
           ],
         ),
       ),

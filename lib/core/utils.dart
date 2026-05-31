@@ -6,5 +6,9 @@ class Utils{
   static const String title = "Title";
   static const String createYourFirstNote = "Create your first note !";
   static const String typeSomeThing = "Type something...";
+  static const String shouldAddTitleAndDes = "Should add title and desc";
+  static const String toSave = "to save";
+  static const String ok = "Ok";
+  static const String delete = "Delete";
 
 }

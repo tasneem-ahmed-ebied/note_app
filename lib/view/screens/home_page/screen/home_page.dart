@@ -15,14 +15,25 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: Padding(
         padding: EdgeInsets.only(
+          right: PaddingManager.p20,
           bottom: PaddingManager.p60,
-          left: PaddingManager.p300,
+          // left: PaddingManager.p300,
         ),
-        child: InkWell(
-          onTap: () {
-            AppNavigation.pushNamed(context, RouteName.notePage);
-          },
-          child: MainCircleButton(icon: Icons.add),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            InkWell(
+              onTap: () {
+                AppNavigation.pushAndRemoveUntil(context, RouteName.notePage);
+              },
+              child: MainCircleButton(
+                icon: Icons.add,
+                onTap: () {
+                  AppNavigation.pushNamed(context, RouteName.notePage);
+                },
+              ),
+            ),
+          ],
         ),
       ),
       backgroundColor: ColorManager.white,
