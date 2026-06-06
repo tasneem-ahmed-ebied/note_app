@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:note/core/color_manager.dart';
 import 'package:note/core/font_manager.dart';

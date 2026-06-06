@@ -23,6 +23,8 @@ class WidthManagers {
   static double w65 = 65.w;
   static double w67 = 67.w;
   static double w73 = 73.w;
+  static double w75 = 75.w;
+  static double w76 = 76.w;
   static double w80 = 80.w;
   static double w100 = 100.w;
   static double w130 = 130.w;

@@ -79,7 +79,11 @@ flutter:
       fonts:
         - asset: assets/fonts/Otama-ep.otf
           weight: 400
-  #     fonts:
+    - family: otama
+      fonts:
+        - asset: assets/fonts/Otama-ep.otf
+   #       weight: 400
+  #   fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic

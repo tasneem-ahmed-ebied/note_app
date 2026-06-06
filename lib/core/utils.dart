@@ -10,5 +10,10 @@ class Utils{
   static const String toSave = "to save";
   static const String ok = "Ok";
   static const String delete = "Delete";
+  static const String done = "done";
+  static const String date = "Mon, April, 2002";
+  static const String numberTitle = "Title 1";
+  static const String descriptionNote = "Use free text area, feel free to write it all Use free text area, feel free to write itarea,...........";
+  static const String notes = "Notes";
 
 }

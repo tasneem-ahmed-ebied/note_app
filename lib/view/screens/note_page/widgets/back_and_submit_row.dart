@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:note/core/heigth_manager.dart';
-import 'package:note/core/navigation/app_navigation.dart';
 import 'package:note/core/paddign_manager.dart';
 import 'package:note/core/radius_manager.dart';
-import 'package:note/core/route_manager.dart';
 import 'package:note/core/width_manager.dart';
 
 import '../../../../core/color_manager.dart';

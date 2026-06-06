@@ -6,6 +6,7 @@ class HorizontalPaddingManager {
   static double p5 = 5.w;
   static double p8 = 8.w;
   static double p10 = 10.w;
+  static double p11 = 11.r;
   static double p12 = 12.w;
   static double p16 = 16.w;
   static double p20 = 20.w;
@@ -24,6 +25,7 @@ class PaddingManager {
   static double p5 = 5.r;
   static double p8 = 8.r;
   static double p10 = 10.r;
+  static double p11 = 11.r;
   static double p12 = 12.r;
   static double p16 = 16.r;
   static double p20 = 20.r;

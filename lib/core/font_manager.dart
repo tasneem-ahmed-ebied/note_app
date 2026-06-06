@@ -9,6 +9,7 @@ class FontSizeManagers {
   FontSizeManagers._();
 
   static double f10 = 10.sp;
+  static double f8 = 8.sp;
   static double f12 = 12.sp;
   static double f13 = 13.sp;
   static double f14 = 14.sp;
